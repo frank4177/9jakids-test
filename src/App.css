@@ -1,7 +1,14 @@
-body{
+html, body, #root{
   font-family:Poppins ;
   width: 100%;
   margin: 0 auto;
   -webkit-box-pack: center;
   height: 100vh; 
+
+  height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Prevents overflow on the x-axis */
+    overflow-x: hidden;
 }
