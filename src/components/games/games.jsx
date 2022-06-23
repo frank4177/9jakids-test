@@ -3,7 +3,7 @@ import { motion, Variants } from "framer-motion";
 import "./games.css";
 import axios from "axios";
 
-const Games = () => {
+const Games = ({id}) => {
   const [morePost, setMorePost] = useState(6);
   const [games, setGames] = useState([]);
 
@@ -47,6 +47,7 @@ const Games = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.5 }}
             variants={animation}
+            id={id}
           >
             <div className="img-wrap">
               <img src={game.GameImage} className="game-img" />
