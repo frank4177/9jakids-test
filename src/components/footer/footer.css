@@ -30,6 +30,8 @@
   list-style: none;
 }
 
+
+
 .footer-socials {
   padding: 0px 265px;
   max-width: 1370px;
@@ -64,4 +66,20 @@
   .footer-socials {
     padding: 0px 20px;
   }
+
+  .footer-socials-wrap {
+    display: flex;
+    background-color: #fdc800;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 20px;
+    color: black;
+  }
 }
+
+@media (max-width: 400px) {
+    .col{
+        margin-left: 10px;
+    }
+  }
