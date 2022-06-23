@@ -22,6 +22,7 @@
 .game {
   width: 16rem;
   box-shadow: 0.02rem 0.02rem 0rem 0.05rem gray;
+  height:48vh;
 }
 
 .img-wrap {
