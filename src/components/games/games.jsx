@@ -21,10 +21,10 @@ const Games = ({id}) => {
   }, []);
 
   const animation = {
-    offscreen: { opacity: 0, y: "30%" },
+    offscreen: { opacity: 0, y: 30 },
     onscreen: {
       opacity: 1,
-      y: "0%",
+      y: 0,
       transition: {
         type: "spring",
         bounce: 0.3,

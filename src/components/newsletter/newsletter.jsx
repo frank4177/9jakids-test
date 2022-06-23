@@ -6,10 +6,10 @@ import { AiFillMail } from "react-icons/ai";
 
 const Newsletter = () => {
   const animation = {
-    offscreen: { opacity: 0, y: "25%" },
+    offscreen: { opacity: 0, y: 25 },
     onscreen: {
       opacity: 1,
-      y: "0%",
+      y: 0,
       transition: {
         type: "spring",
         bounce: 0.3,

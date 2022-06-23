@@ -1,13 +1,13 @@
-html,
+/* html,
 body,
 #root {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    /* Prevents overflow on the x-axis */
+    /* Prevents overflow on the x-axis 
     overflow-x: hidden;
-}
+} */
 
 
 .games-container {

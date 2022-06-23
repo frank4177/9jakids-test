@@ -6,10 +6,10 @@ import Timer from "./../../Timer.png";
 
 const HeroBanner = () => {
   const animation = {
-    offscreen: { opacity: 0, y: "-10%" },
+    offscreen: { opacity: 0, y: -20 },
     onscreen: {
       opacity: 1,
-      y: "0%",
+      y: 0,
       transition: {
         type: "spring",
         bounce: 0.4,
