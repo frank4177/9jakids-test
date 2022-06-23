@@ -36,7 +36,7 @@ const Games = ({id}) => {
   return (
     <div className="games-container">
       <div className="games-title">Popular Games</div>
-      <div className="games-wrapper" style={{height:"100%"}}>
+      <div className="games-wrapper">
         {games.map((game, index) => (
           <motion.div
             className="game"
