@@ -45,7 +45,7 @@ const Games = ({id}) => {
             initial={"offscreen"}
             whileInView={"onscreen"}
             viewport={{ once: true, amount: 0.5 }}
-            transition={{ staggerChildren: 0.5 }}
+            
             variants={animation}
             id={id}
           >
