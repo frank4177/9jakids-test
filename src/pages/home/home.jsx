@@ -9,11 +9,13 @@ import Footer from '../../components/footer/footer'
 const Home = () => {
   return (
     <div>
+      <div style={{minHeight:"100vh"}}>
         <Topbar/>
         <Navbarr/>
         <HeroBanner/>
         <Games/>
         <Newsletter/>
+        </div>
         <Footer/>
     </div>
   )
